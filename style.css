@@ -34,7 +34,7 @@ header
 }
 .city
 {
-    background-color: #F3F3F3;
+    background-color: rgba(211, 211, 211, 0.829);
     text-align: center;
     padding: 10px;
     display: flex;
@@ -54,3 +54,22 @@ header
     font-size: 15px;
     color: rgb(78, 78, 78);
 }
+.info-explorer 
+{
+    text-align: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.info-explorer button
+{
+    color: white;
+    background: linear-gradient(#FF79DA,#9356DC);
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+}
+
