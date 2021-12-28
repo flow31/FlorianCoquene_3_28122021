@@ -10,9 +10,11 @@
 body
 
 {
-    max-width: 420px;
+    
     width: 100%;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-style: 700;
 }
 .logo
 {
@@ -27,6 +29,28 @@ body
 }
 header
 {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    position: relative;
 }
-
+.city
+{
+    background-color: #F3F3F3;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+    
+}
+.city i 
+{
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+.city h2
+{
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
