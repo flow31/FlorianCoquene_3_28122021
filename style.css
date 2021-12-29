@@ -74,4 +74,38 @@ header
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 15px;
 }
+.fonctions h2
+{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.fonctions li
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 700;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 10px 29px -8px;
+    background-color: #f3f3f3;
+    
+
+
+}
+.fonctions ol
+{
+    margin: 0 19px 0 -3px;
+    list-style: none;
+}
+.fonctions i.fas
+{
+    margin-right: 22px;
+    margin-left: -66px;
+}
+.fonctions i.fas.fa-mobile-alt
+{
+    margin-right: 25px;
+    margin-left: -44px;
+}
 
