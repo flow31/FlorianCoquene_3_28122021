@@ -431,6 +431,16 @@ header
     font-weight: 500;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    opacity: 1;
+    
+}
+.info-explorer button:hover
+{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  opacity: 0.90;
+  transform:scale(1.02);
 }
 .fonctions h2
 {
@@ -451,6 +461,7 @@ header
 
 
 }
+
 .fonctions ol
 {
     margin: 0 19px 0 -3px;
@@ -461,6 +472,7 @@ header
     margin-right: 22px;
     margin-left: -66px;
 }
+
 .fonctions i.fas.fa-mobile-alt
 {
     margin-right: 25px;
