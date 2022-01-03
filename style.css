@@ -630,26 +630,40 @@ h4
   margin-top: -78px;
 }
 
-.cards-entree li
+.cards-menu li
 {
-  border-radius: 25px;
+  border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   list-style: none;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 0 -25px;
+  width: 346px;
+  height: 67px;
   
 }
-.cards-entree h3
+.cards-menu h3
 {
-  padding: 1px 1px 1px 1px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 12px 1px -10px 8px;
+  padding: 12px 1px 1px 1px;
+  
 }
 .menu span
 {
   display: flex;
   justify-content: flex-end;
+  margin: -18px 19px 0 0;
   font-weight: 700;
   color:rgb(58, 54, 54);
-  margin: 1px 1px 1px 1px;
+ 
   
+}
+.menu p
+{
+  display: flex;
+  justify-content: flex-start;
+  margin: 12px 1px 1px 10px;
+  padding: 1px 1px 1px 1px;
 }
 .fonctions ol
 {
