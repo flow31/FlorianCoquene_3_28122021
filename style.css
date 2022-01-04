@@ -356,7 +356,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 *
@@ -452,7 +452,7 @@ header
 .fonctions li
 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 25px;
    
     border-radius: 20px;
@@ -646,6 +646,7 @@ h4
   justify-content: flex-start;
   margin: 12px 1px -10px 8px;
   padding: 12px 1px 1px 1px;
+  font-weight: 600;
   
 }
 .menu span
@@ -664,6 +665,7 @@ h4
   justify-content: flex-start;
   margin: 12px 1px 1px 10px;
   padding: 1px 1px 1px 1px;
+  
 }
 .fonctions ol
 {
@@ -678,5 +680,5 @@ h4
   border-radius: 100%;
   color: white;
   padding: 6px;
-  background-color: #9356DC;
+  background-color: #9356dc;
 }
