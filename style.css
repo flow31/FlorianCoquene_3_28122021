@@ -682,3 +682,19 @@ h4
   padding: 6px;
   background-color: #9356dc;
 }
+@media screen and (min-width: 768px)
+{
+  .fonctions ol
+  {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .fonctions li 
+  {
+    width: 30%;
+  }
+
+
+
+}
