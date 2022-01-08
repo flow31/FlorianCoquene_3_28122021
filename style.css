@@ -683,6 +683,20 @@ h4
  
   position: relative;
   margin-top: -78px;
+ 
+}
+.delay-1
+{
+  animation-delay: .1s;
+}
+.delay-2
+{
+  animation-delay: .2s;
+
+}
+.delay-3
+{
+  animation-delay: .3s;
 }
 
 .cards-menu-entrees li,
@@ -695,6 +709,11 @@ h4
   margin: 0 10px 0 -25px;
   width: 100%;
   height: 67px;
+  animation: menu-appear .6s;
+  animation-fill-mode: both;
+  transform: scale(0);
+  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+  
 
 }
 .cards-menu-entrees h3,
@@ -710,7 +729,10 @@ h4
   
   
 }
-.menu span
+
+.cards-menu-entrees span,
+.cards-menu-plats span,
+.cards-menu-desserts span
 {
   display: flex;
   justify-content: flex-end;
@@ -762,6 +784,33 @@ h4
   animation-delay: 2s;
   color: #9356dc;
 
+}
+.line {
+  width: 42px;
+  border: 2px solid #99E2D0;
+  margin-left: 22px;
+  display: flex;
+  margin-top: -13px;
+}
+@keyframes fade {
+  from
+  {
+    opacity: 0;
+  }
+  to 
+  {
+    opacity: 1;
+  }
+}
+@keyframes menu-appear {
+  from 
+  {
+    transform: scale(0);
+  }
+  to
+  {
+    transform: scale(1);
+  }  
 }
 @keyframes disappear
 {
