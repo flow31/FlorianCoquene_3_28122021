@@ -565,7 +565,7 @@ header
 {
   position: absolute;
   right: 39px;
-  top: 40px;  
+  top: 60px;  
   font-size: 27px;
   font-weight: 100;
 }
@@ -680,24 +680,77 @@ h4
 {
   border-radius: 30px 30px 0 0;
   background-color: white;
- 
+  overflow: hidden;
   position: relative;
   margin-top: -78px;
  
 }
 .delay-1
 {
-  animation-delay: .1s;
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+  
+  
 }
 .delay-2
 {
-  animation-delay: .2s;
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 0.8s;
+  
 
 }
 .delay-3
 {
-  animation-delay: .3s;
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 1.1s;
+  
 }
+.delay-4
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 1.4s;
+}
+.delay-5
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 1.7s;
+}
+.delay-6
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+.delay-7
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 2.3s;
+}
+.delay-8
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 2.6s;
+}
+.delay-9
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 2.9s;
+}
+.delay-10
+{
+  animation: fade 1s;
+  animation-fill-mode: both;
+  animation-delay: 3.2s;
+}
+
 
 .cards-menu-entrees li,
 .cards-menu-plats li,
@@ -709,13 +762,15 @@ h4
   margin: 0 10px 0 -25px;
   width: 100%;
   height: 67px;
-  animation: menu-appear .6s;
-  animation-fill-mode: both;
-  transform: scale(0);
-  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+
+ 
+  
+  
+ 
   
 
 }
+
 .cards-menu-entrees h3,
 .cards-menu-plats h3,
 .cards-menu-desserts h3
@@ -792,6 +847,47 @@ h4
   display: flex;
   margin-top: -13px;
 }
+.marked
+{
+  background-color: aquamarine;
+  padding: 26px;
+  display: flex;
+  margin: -59px 1px 1px 947px;
+  width: 81px;
+  overflow: hidden;
+  border-radius: 0 20px 20px 0;
+ 
+
+}
+.marked:hover
+{
+  margin: 1px 1px 1px 1px;
+  
+}
+
+
+@-webkit-keyframes marked {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes marked {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+
+
 @keyframes fade {
   from
   {
@@ -802,16 +898,7 @@ h4
     opacity: 1;
   }
 }
-@keyframes menu-appear {
-  from 
-  {
-    transform: scale(0);
-  }
-  to
-  {
-    transform: scale(1);
-  }  
-}
+
 @keyframes disappear
 {
   from{
