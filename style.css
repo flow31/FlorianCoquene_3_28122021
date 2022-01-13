@@ -565,7 +565,7 @@ header
 {
   position: absolute;
   right: 39px;
-  top: 60px;  
+  top: 34px;  
   font-size: 27px;
   font-weight: 100;
 }
@@ -680,7 +680,6 @@ h4
 {
   border-radius: 30px 30px 0 0;
   background-color: white;
-  overflow: hidden;
   position: relative;
   margin-top: -78px;
  
@@ -690,6 +689,7 @@ h4
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 0.5s;
+  
   
   
 }
@@ -713,42 +713,49 @@ h4
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 1.4s;
+  
 }
 .delay-5
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 1.7s;
+ 
 }
 .delay-6
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 2s;
+  
 }
 .delay-7
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 2.3s;
+  
 }
 .delay-8
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 2.6s;
+  
 }
 .delay-9
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 2.9s;
+  
 }
 .delay-10
 {
   animation: fade 1s;
   animation-fill-mode: both;
   animation-delay: 3.2s;
+  
 }
 
 
@@ -759,10 +766,13 @@ h4
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   list-style: none;
-  margin: 0 10px 0 -25px;
+  margin: 13px 10px 0 -25px;
   width: 100%;
   height: 67px;
-
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
  
   
   
@@ -771,13 +781,16 @@ h4
 
 }
 
+
+
+
 .cards-menu-entrees h3,
 .cards-menu-plats h3,
 .cards-menu-desserts h3
 {
   display: flex;
   justify-content: flex-start;
-  margin: 12px 1px -10px 8px;
+  margin: 1px 1px -10px 8px;
   padding: 12px 1px 1px 1px;
   font-weight: 600;
   
@@ -794,6 +807,7 @@ h4
   margin: -18px 19px 0 0;
   font-weight: 700;
   color:rgb(58, 54, 54);
+  
   
   
  
@@ -850,42 +864,35 @@ h4
 .marked
 {
   background-color: aquamarine;
-  padding: 26px;
+  padding: 23px;
   display: flex;
-  margin: -59px 1px 1px 947px;
+  margin: -62px 1px 1px 924px;
   width: 81px;
-  overflow: hidden;
+  font-size: 30px;
   border-radius: 0 20px 20px 0;
+  color: white;
  
 
 }
-.marked:hover
+
+.entree li:hover > .marked
 {
-  margin: 1px 1px 1px 1px;
+  margin: -62px 1px 1px 845px;
+  transition-duration: 0.5s;
+  
+  
+}
+.entree li:hover > .fas.fa-check-circle
+{
   
 }
 
+.city
+{
+  border: 0;
+}
 
-@-webkit-keyframes marked {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-}
-@keyframes marked {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-}
+
 
 
 @keyframes fade {
