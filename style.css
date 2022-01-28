@@ -920,6 +920,8 @@ h4
   right:-1px;
   animation-duration: 0.5s;
   
+  
+  
 
   
   
@@ -933,6 +935,19 @@ h4
   flex-direction: column;
   min-width: 0;
 }
+
+
+
+
+.entree li:hover > .fas
+{
+  
+  transform: rotate(180deg)
+  
+  
+}
+
+
 
 
 
