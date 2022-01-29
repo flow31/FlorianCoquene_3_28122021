@@ -910,12 +910,12 @@ h4
   position: absolute;
   top: 60px;
   right: -88px;
-  transition: 1s;
+  transition: 0.5s;
   
 
 }
 
-.entree li:hover > .marked
+.entree li:hover .marked
 {
   animation: check;
   position: absolute;
@@ -941,10 +941,13 @@ h4
 
 
 
-.entree li:hover > .fas
+.entree li:hover .fas
 {
   
-  transform: rotate(180deg)
+  transform: rotate(360deg);
+  transition: 0.5s;
+  transition-delay: 0.2s;
+  
   
   
 }
